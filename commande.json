@@ -1,0 +1,66 @@
+{"cmdEnCours":
+    [
+        {"numTable":"5",
+        "idCommande":"2",
+        "produit":[
+
+            {"denomination":"snickers",
+            "quantite":"1",
+            "cochee":"0"},
+            {"denomination":"café expresso",
+            "quantite":"1",
+            "cochee":"0"}
+            ]},
+                
+    
+    
+        {"numTable":"5",
+            "idCommande":"2",
+            "produit":[
+    
+                {"denomination":"snickers",
+                "quantite":"1",
+                "cochee":"0"},
+                {"denomination":"café expresso",
+                "quantite":"1",
+                "cochee":"0"},
+                {"denomination":"snickers",
+                    "quantite":"1",
+                    "cochee":"0"},
+                    {"denomination":"café expresso",
+                    "quantite":"1",
+                    "cochee":"0"},
+                    {"denomination":"snickers",
+                        "quantite":"1",
+                        "cochee":"0"},
+                        {"denomination":"café expresso",
+                        "quantite":"1",
+                        "cochee":"0"}
+                ]},   
+    
+        {"numTable":"5",
+        "idCommande":"2",
+        "produit":[
+
+            {"denomination":"snickers",
+            "quantite":"1",
+            "cochee":"0"},
+            {"denomination":"café expresso",
+            "quantite":"1",
+            "cochee":"0"}
+            ]},  
+
+        {"numTable":"5",
+            "idCommande":"2",
+            "produit":[
+    
+            {"denomination":"snickers",
+            "quantite":"1",
+                "cochee":"0"},
+            {"denomination":"café expresso",
+            "quantite":"1",
+            "cochee":"0"}
+            ]}       
+                        
+    ]
+}

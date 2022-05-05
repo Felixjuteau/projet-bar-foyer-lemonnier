@@ -1,0 +1,225 @@
+/**********************************************/
+html{font-family: 'Accidental Presidency', sans-serif;}
+a{text-decoration:none}
+body{
+    margin: 0;
+    background-image: url("../images/bar.png") ;
+    background-size: 150%;
+}
+.container_header{
+    font-weight: bold;
+    letter-spacing: 2px;   
+    background:url("../images/bois.png");
+    background-size:cover;
+    height: 15vh ; 
+
+}
+
+
+/************** logo lemonnier **************/
+
+IMG.logo_lemonnier{
+    width: auto;
+    height: 13vh;
+    position: relative;
+    left: 2vh;
+    top: 1vh;
+}
+
+/**************** logo bar ****************/
+
+IMG.bar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : auto;
+    height : 13vh;
+    position: relative;
+    bottom: 12vh;
+}
+
+/******** Sidebar Gestion + Stock ********/
+
+.sidebar{
+    display: block;
+    position: relative;
+    bottom: 22vh;
+    font-size: 35px;
+}
+
+.sidebar_order{
+    position: relative;
+    left: 20%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+}
+
+.sidebar_gestion{  
+    position: relative;
+    left:37%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    bottom: 3vh;
+}
+.sidebar_stock{
+    position: relative;
+    left: 11%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    top: 3vh;
+}
+
+
+
+/************** Heure + date **************/
+
+#info{
+    position: absolute;
+    right: 2vh;
+    top: 4vh;
+    font-size: 24px;
+    color: white;
+}
+
+/**************Table Stock***************/
+#Stock{
+    position: relative;
+    text-align: center ;
+    top: 10vh;
+    right: 25vh;
+}
+    
+#Stock table{
+    display:inline-block;
+    border-collapse:collapse;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding: 1%;
+    border:0;
+    vertical-align:top;
+    
+}
+    
+#Stock  table tr td {
+    height: 50px;
+    width: 650px;
+}
+    
+#Stock  table tr, td + .NumTable{
+    border: #801f23 2px solid;
+
+}
+    
+#Stock  table tr{
+    background:url("../images/bois.png");
+    background-size: cover;
+}
+    
+#Stock  table tr:hover {
+    background-color: rgb(24, 24, 24);
+}
+
+#Stock input{
+    
+    background:transparent;
+    border-color: #801f23;
+    font-family: 'Accidental Presidency', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;  
+    font-size: 18px;
+}
+#Stock input[type="number"]{
+    width: 5vh;
+}
+#Stock input[type="text"]{
+    width: 15vh;
+    text-align: center;
+}
+
+
+
+#envoyer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 7vh;
+    right:15vh ;
+    background:url("../images/bois.png");
+    font-family: 'Accidental Presidency', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;  
+    font-size: 18px;
+}
+/*****************table Tables***********************/
+#Table{
+    position: absolute;
+    text-align: center ;
+    top: 26vh;
+    left: 90vh;
+
+}
+
+#Table table{
+    display:inline-block;
+    border-collapse:collapse;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding: 1%;
+    border:0;
+    vertical-align:top;
+    
+}
+    
+#Table table tr td {
+    height: 50px;
+    width: 350px;
+}
+    
+#Table table tr, td + .NumTable{
+    border: #801f23 2px solid;
+
+}
+    
+#Table table tr{
+    background:url("../images/bois.png");
+    background-size: cover;
+}
+    
+#Table table tr:hover {
+    background-color: rgb(24, 24, 24);
+}
+
+#Table input{
+    
+    background:transparent;
+    border-color: #801f23;
+    font-family: 'Accidental Presidency', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;  
+    font-size: 18px;
+}
+#Table input[type="number"]{
+    width: 5vh;
+}
+#Table input[type="text"]{
+    width: 15vh;
+    text-align: center;
+}
+#envtable{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 7vh;
+    right:15vh ;
+    background:url("../images/bois.png");
+    font-family: 'Accidental Presidency', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;  
+    font-size: 18px;
+}

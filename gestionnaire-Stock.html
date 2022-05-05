@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="Assets/js/gestionnaire-Stock.js" type="module"></script>
+    <link rel="stylesheet" href="Assets/css/gestionnaire-stock.css">
+    <link href="http://fonts.cdnfonts.com/css/accidental-presidency" rel="stylesheet">
+</head>
+
+<header>
+    <div class="container_header">
+
+        <img class="logo_lemonnier" src="Assets/images/logo_lemonnier2.png">
+        <img class="bar" src="Assets/images/logobar.png">
+
+        <div class="sidebar">
+            <a class="sidebar_order" href="main.html">Commandes en cours</a>
+            <a class="sidebar_gestion" href="gestionnaire-commande.html">Gestionnaire de commandes</a>
+            <a class="sidebar_stock" href="gestionnaire-Stock.html">Gestionnaire de stock</a>
+        </div>
+
+        <div id="info">
+            <div id="date"></div>
+            <div id="heure"></div>
+        </div>
+    </div>
+</header>
+
+
+<body>
+    <div class="container">
+
+        <p id="Stock"></p>
+        <button id="envoyer">Envoyer info Stock</button>
+
+        <form action="">
+            <p id="Table"></p>
+            <input id="envtable" type="submit" value="Envoyer info Tables">
+        </form>
+    </div>
+</body>
+
+
+</html>
