@@ -39,20 +39,18 @@
         {
             $json = file_get_contents('php://input');
             $obj = json_decode($json, true);
+
             
-                for($i=0;$i<count($obj);$i++){
+            for($i=0;$i<count($obj);$i++){
 
-                    $id_produit = $obj[$i]["id_produit"];
-                    $denomination = $obj[$i]["denomination"];
-                    $qt_dispo = $obj[$i]["qt_dispo"];
-                    $prix = $obj[$i]["prix"];
-                    $peremption = $obj[$i]["peremption"];
+                $id_produit = $obj[$i]["id_produit"];
+                $denomination = $obj[$i]["denomination"];
+                $qt_dispo = $obj[$i]["qt_dispo"];
+                $prix = $obj[$i]["prix"];
+                $peremption = $obj[$i]["peremption"];
 
-                    $this->Connec->query("UPDATE produits SET denomination = '$denomination', qt_dispo = '$qt_dispo', prix = '$prix', peremption = '$peremption' WHERE id_produit = '$id_produit';");
-                    // if($denomination=""||$qt_dispo=""||$peremption=""||$prix="")
-                    // {
-                    //     print("j'aime le jambon");
-                    // }
+                $this->Connec->query("UPDATE produits SET denomination = '$denomination', qt_dispo = '$qt_dispo', prix = '$prix', peremption = '$peremption' WHERE id_produit = '$id_produit';");
+
             }   
         }
     }

@@ -189,7 +189,7 @@ function gestiontable(data) {
 function modifStock(data) {
 
   const nbproduit = data.produits.length;
-  const tableau = new Array();
+  const tableau = [];
   for (let i = 0; i < nbproduit; i++) {
     const id = data.produits[i]["id_produit"];
     const produit = {
@@ -207,8 +207,6 @@ function modifStock(data) {
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: tableau
-    });
-
-  window.location.reload()
+      body: JSON.stringify(tableau)
+    }).then(() => window.location.reload());
 }
