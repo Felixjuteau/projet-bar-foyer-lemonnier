@@ -1,0 +1,86 @@
+/**********************************************/
+html{font-family: 'Accidental Presidency', sans-serif;}
+a{text-decoration:none}
+body{
+margin: 0;
+background-image: url("../images/bar.png") ;
+background-size: cover;
+}
+.container_header{
+font-weight: bold;
+letter-spacing: 2px;   
+background:url("../images/bois.png");
+background-size: cover;
+height: 15vh ; 
+}
+
+
+/************** logo lemonnier **************/
+
+IMG.logo_lemonnier{
+width: auto;
+height: 13vh;
+position: relative;
+left: 2vh;
+top: 1vh;
+}
+
+/**************** logo bar ****************/
+
+IMG.bar{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width : auto;
+height : 13vh;
+position: relative;
+bottom: 12vh;
+}
+
+/******** Sidebar Gestion + commande ********/
+
+.sidebar{
+    display: block;
+    position: relative;
+    bottom: 22vh;
+    font-size: 35px;
+    }
+    
+    .sidebar_order{
+    position: relative;
+    left: 20%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    }
+    
+    .sidebar_gestion{  
+    position: relative;
+    left: 48%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    bottom: 3vh;
+    }
+    .sidebar_stock{
+        position: relative;
+    left: 27%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    top: 3vh;
+    
+    }
+    
+
+
+/************** Heure + date **************/
+
+#info{
+position: absolute;
+right: 2vh;
+top: 4vh;
+font-size: 24px;
+color: white;
+}

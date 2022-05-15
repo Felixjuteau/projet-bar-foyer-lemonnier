@@ -1,0 +1,179 @@
+/**********************************************/
+html{font-family: 'Accidental Presidency', sans-serif;}
+a{text-decoration:none}
+body{
+margin: 0;
+background-image: url("../images/bar.png") ;
+background-size: cover;
+}
+.container_header{
+font-weight: bold;
+letter-spacing: 2px;   
+background:url("../images/bois.png");
+background-size: cover;
+height: 15vh ; 
+}
+
+
+/************** logo lemonnier **************/
+
+IMG.logo_lemonnier{
+width: auto;
+height: 13vh;
+position: relative;
+left: 2vh;
+top: 1vh;
+}
+
+/**************** logo bar ****************/
+
+IMG.bar{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width : auto;
+height : 13vh;
+position: relative;
+bottom: 12vh;
+}
+
+/******** Sidebar Gestion + commande ********/
+
+.sidebar{
+    display: block;
+    position: relative;
+    bottom: 22vh;
+    font-size: 35px;
+    }
+    
+    .sidebar_order{
+    position: relative;
+    left: 20%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    }
+    
+    .sidebar_gestion{  
+    position: relative;
+    left: 48%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    bottom: 3vh;
+    }
+    .sidebar_stock{
+        position: relative;
+    left: 27%;
+    color: #801f23;
+    border-bottom: 2px solid #801f23;
+    width: 350px;
+    height: 40px;
+    top: 3vh;
+    
+    }
+    
+
+
+
+/************** Heure + date **************/
+
+#info{
+position: absolute;
+right: 2vh;
+top: 4vh;
+font-size: 24px;
+color: white;
+}
+
+/************ Nombre de commande ************/
+
+#order{
+color: #801f23; 
+width: 18%;
+margin: auto;
+text-align: center;
+font-size: 34px;
+padding-top: 1vh;
+padding-bottom: 2%;
+}
+
+#order2 p:first-child{
+position: relative;
+bottom: 3vh;
+}
+
+#order2{
+border: #801f23 2px solid;
+background:url("../images/bois.png");
+height: 15vh;
+}
+
+#nborder{
+font-size: 50px;
+position: relative;
+bottom: 55%;
+}
+
+#order2 p:first-child{
+text-decoration: underline;
+}
+
+/************ Tableau commande ************/
+
+.NumTable td:first-child{
+font-size: 25px;
+border-right: 0;
+border-collapse: collapse;
+}
+
+.NumTable td:nth-child(2){
+font-size: 40px;
+border-left: 0;
+border-collapse: collapse;
+}
+
+.NumTable{
+color:#801f23;
+font-weight: bold;
+}
+
+.titre{
+color: #801f23;
+}
+
+#Commande{
+position: relative;
+bottom: 5vh;
+text-align: center ;
+}
+
+#Commande table{
+display:inline-block;
+border-collapse:collapse;
+letter-spacing: 2px;
+font-size: 22px;
+padding: 1%;
+border:0;
+vertical-align:top;
+}
+
+#Commande table tr td {
+height: 50px;
+width: 125px;
+}
+
+#Commande table tr, td + .NumTable{
+border: #801f23 2px solid;
+}
+
+#Commande table tr{
+background:url("../images/bois.png");
+}
+
+#Commande table tr:hover {
+background-color: rgb(24, 24, 24);
+}
+
+
+
